@@ -1,0 +1,41 @@
+point on Avail clash of node
+
+
+نصب پیش نیاز ها
+
+sudo apt update
+
+apt-get install protobuf-compiler
+
+apt install clang gcc libssl-dev pkg-config
+
+sudo apt install npm
+
+npm install -g yarn 
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+source ~/.bashrc
+
+nvm install node
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+rustup update stable
+
+rustc --version
+
+Y enter
+
+
+1 Enter
+
+نصب سورس پروژه
+
+git clone https://github.com/karnotxyz/madara-cli
+
+cd madara-cli
+
+cargo build --release
+
+
